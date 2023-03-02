@@ -73,6 +73,7 @@ code {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
 .thumb-container {
@@ -137,4 +138,28 @@ h3 {
 
 .load-more:hover {
   background: #f5eeee linear-gradient(#f5eeee, #f5eeee) repeat-x;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title-container img {
+  width: 90px;
+  height: 100%;
+}
+
+@media screen and (max-width: 300px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .load-more {
+    min-width: none;
+    width: 80%;
+  }
 }

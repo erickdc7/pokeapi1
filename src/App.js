@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import PokemonThumnail from "./components/PokemonThumnail";
+import logo from './assets/logo.png';
 
 function App() {
 	const [allPokemons, setAllPokemons] = useState([]);
@@ -30,7 +31,10 @@ function App() {
 
 	return (
 		<div className="app-container">
-			<h1>Pokemon Evolution</h1>
+			<div className="title-container">
+				<img src={logo} alt="logo" />
+				<h1 className="title">Pokemon Evolution</h1>
+			</div>
 			<div className="pokemon-container">
 				<div className="all-container">
 					{
