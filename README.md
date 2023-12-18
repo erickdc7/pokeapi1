@@ -1,5 +1,5 @@
 # PokeAPI 01
-This design is inspired by this [video](https://youtu.be/CZBWT7MQYr0), which belongs to [Coding With Siphiwo](https://www.youtube.com/@siphiwocode).
+This design is inspired by the work of [Coding With Siphiwo](https://www.youtube.com/@siphiwocode). Click [here](https://youtu.be/CZBWT7MQYr0) to watch the video.
 
 ## Technologies
 This web page was made with the following technologies:
